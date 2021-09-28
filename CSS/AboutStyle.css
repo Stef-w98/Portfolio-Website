@@ -1,0 +1,37 @@
+.living{
+    padding-bottom: 10px;
+    display: block;
+    margin-top: 5%;
+    margin-left: 5%;
+    float: left;
+    font-size: 24px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    padding: 12px;
+
+}
+
+.bio{
+    border-style: solid;
+    color: black;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 6px;
+    margin-left: 10px;
+    padding: 12px;
+    max-width: 35%;
+    float: left;
+    font-size: 20px;
+
+}
+
+.profilepicture {
+    border: 5px solid black;
+    max-width: 100%;
+    display: flex;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-right: 50%;
+    float: right;
+}
