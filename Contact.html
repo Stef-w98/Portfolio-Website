@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="CSS/General.css">
+    <link rel="stylesheet" href="CSS/ContactStyle.css">
     <title>Contact</title>
 </head>
 <body>
@@ -16,12 +17,16 @@
         </ul>
     </nav>
     <form class="contactform">
-        <label for="fname">First Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-        <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
+        <div class="namecontainer">
+        <div class="fname">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        </div>
+        <div class="lname">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        </div>
+        </div>
         <label for="country">Country</label>
         <select id="country" name="country">
             <option value="Afganistan">Afghanistan</option>

@@ -1,0 +1,49 @@
+.contactform {
+    width: auto;
+    margin-top: 5%;
+    color: white;
+    background: #191919;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.fname{
+    float: left;
+    margin: 20px auto;
+    padding-right: 1%;
+
+
+}
+
+.lname{
+    float: right;
+    margin: 20px auto;
+    padding-left: 1%;
+
+}
+
+.namecontainer{
+    align-content: center;
+    display: flex;
+    width: auto;
+
+}
+
+.contactform input[type="text"]{
+    background: none;
+    border: 2px solid darkblue;
+    padding: 10px 25px 15px;
+    border-radius: 18px;
+    outline: none;
+    color: white;
+
+}
+
+.contactform input[type = "text"]:focus{
+    width: 280px;
+    border-color: #2ecc71;
+
+}
