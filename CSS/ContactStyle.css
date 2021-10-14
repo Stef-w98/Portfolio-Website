@@ -1,49 +1,125 @@
+.myName{
+    font-family: 'Italianno', sans-serif;
+    color: white;
+    position: fixed;
+    margin-right: 75%;
+    justify-content: center;
+    font-size: 40px;
+}
+
 .contactform {
-    width: auto;
+    width: 50%;
+    height: 40em;
+    max-height: 50em;
     margin-top: 5%;
     color: white;
-    background: #191919;
     padding: 40px;
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
-.fname{
+.formcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.fname {
     float: left;
     margin: 20px auto;
     padding-right: 1%;
-
-
 }
 
-.lname{
+.lname {
     float: right;
     margin: 20px auto;
     padding-left: 1%;
 
 }
 
-.namecontainer{
+.namecontainer {
     align-content: center;
     display: flex;
-    width: auto;
+
+    justify-content: space-between;
 
 }
 
-.contactform input[type="text"]{
+.inputcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contactform input[type="text"], .contactform input[type="email"] {
     background: none;
-    border: 2px solid darkblue;
+    border: 2px solid #3d3b33;
     padding: 10px 25px 15px;
-    border-radius: 18px;
+    border-radius: 8px;
     outline: none;
     color: white;
 
 }
 
-.contactform input[type = "text"]:focus{
-    width: 280px;
-    border-color: #2ecc71;
+#phone {
+    background: none;
+    border: 2px solid #3d3b33;
+    padding: 10px 25px 15px;
+    border-radius: 8px;
+    outline: none;
+    color: white;
 
 }
+
+.phone:focus {
+    border-color: #c4a11d;
+}
+
+.contactform input[type = "text"]:focus, .contactform input[type="email"]:focus {
+    width: 280px;
+    border-color: #c4a11d;
+
+}
+
+.mailcontainer {
+    align-content: center;
+    display: flex;
+    width: auto;
+    justify-content: space-evenly;
+}
+
+.mail {
+    float: left;
+    margin: 20px;
+    padding-right: 1%;
+}
+
+.phone {
+    float: right;
+    margin: 20px;
+    padding-right: 1%;
+}
+
+.subjectbox{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+#subject {
+    width: 40em;
+    height: 20em;
+    margin-top: 3%;
+    max-height: 25em;
+    max-width: 50em;
+    background-color: #212121;
+    color: white;
+    border-color: #3d3b33;
+
+}
+

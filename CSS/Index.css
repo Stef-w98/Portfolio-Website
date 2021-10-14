@@ -1,0 +1,12 @@
+.myname1{
+    color: white;
+    opacity: 80%;
+    font-family: 'Italianno', sans-serif;
+    font-size: 180px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 15%;
+
+}
