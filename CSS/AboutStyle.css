@@ -1,37 +1,92 @@
 .living{
-    display: block;
-    margin-top: 5%;
-    margin-left: 5%;
-    float: left;
-    font-size: 24px;
-    border-style: solid;
-    border-color: white;
-    border-width: 2px;
-    padding: 12px;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    line-height: 2.2rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 1rem;
+    float: right;
+    border-left: 3px solid #3d3b33;
+    margin-right: 10%;
+    padding-bottom: 2rem;
 
+}
+
+.biobox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 10%;
 }
 
 .bio{
     font-family: 'Playfair Display', serif;
-    border-style: solid;
     color: white;
-    border-color: white;
-    border-width: 2px;
-    border-radius: 6px;
-    margin-left: 10px;
-    padding: 12px;
-    max-width: 35%;
-    float: left;
-    font-size: 20px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    line-height: 2.2rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    float: right;
+    border-left: 3px solid #3d3b33;
 
 }
 
-.profilepicture {
-    border: 5px solid white;
-    max-width: 100%;
+.aboutme{
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 44px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
     display: flex;
+    flex-direction: row;
+    float: left;
     margin-left: 5%;
-    margin-top: 5%;
-    margin-right: 50%;
-    float: right;
+
+}
+
+.aboutbox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    float: bottom;
+
+}
+
+.swname{
+    color: #3d3b33;
+    font-family: 'Playfair Display', serif;
+    font-size: 96px;
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 50%;
+
+}
+
+.livingtitel{
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 44px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    display: flex;
+    flex-direction: row;
+    float: left;
+    margin-left: 5%;
+}
+
+.livingbox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
 }

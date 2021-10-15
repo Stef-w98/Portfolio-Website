@@ -1,12 +1,12 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #212121;
+    background-color: #121212;
 
 }
 
 .navbar{
-    background-color: #3d3b33;
+    background-color: #212121;
     position: fixed;
     display: flex;
     justify-content: center;
