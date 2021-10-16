@@ -75,11 +75,11 @@
 
 }
 
-.phone:focus {
+#phone:focus {
     border-color: #c4a11d;
 }
 
-.contactform input[type = "text"]:focus, .contactform input[type="email"]:focus {
+.contactform input[type = "text"]:focus, .contactform input[type="email"]:focus{
     width: 280px;
     border-color: #c4a11d;
 

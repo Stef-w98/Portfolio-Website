@@ -20,9 +20,10 @@
     flex-direction: column;
     justify-content: space-between;
     margin-bottom: 10%;
+    padding: 5%;
 }
 
-.bio{
+.info{
     font-family: 'Playfair Display', serif;
     color: white;
     letter-spacing: 2px;
@@ -35,29 +36,28 @@
     padding: 1rem;
     float: right;
     border-left: 3px solid #3d3b33;
-
+    width: 65%;
 }
 
-.aboutme{
+.title{
     color: white;
     font-family: 'Playfair Display', serif;
-    font-size: 44px;
+    font-size: 36px;
     letter-spacing: 2px;
     word-spacing: 5px;
     display: flex;
     flex-direction: row;
     float: left;
-    margin-left: 5%;
-
+    min-width: 250px;
+    width: 25%;
 }
 
-.aboutbox{
+.box{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    float: bottom;
-
+    margin: 2rem 0;
 }
 
 .swname{
@@ -65,28 +65,15 @@
     font-family: 'Playfair Display', serif;
     font-size: 96px;
     letter-spacing: 1px;
-    display: flex;
-    flex-direction: row;
-    margin-left: 50%;
-
+    width: 100%;
+    text-align: center;
+    margin: 0;
 }
 
-.livingtitel{
-    color: white;
-    font-family: 'Playfair Display', serif;
-    font-size: 44px;
-    letter-spacing: 2px;
-    word-spacing: 5px;
-    display: flex;
-    flex-direction: row;
-    float: left;
-    margin-left: 5%;
+.list{
+    list-style-type: none;
+    flex-direction: column;
 }
 
-.livingbox{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
 
-}
+
