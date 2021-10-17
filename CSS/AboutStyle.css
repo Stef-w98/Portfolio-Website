@@ -62,6 +62,8 @@
     list-style-type: none;
     flex-direction: column;
 }
-
+i{
+    font-size: 10px;
+}
 
 
