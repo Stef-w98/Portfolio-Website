@@ -1,6 +1,6 @@
 /* My name in xxl size */
 .swname{
-    color: #3d3b33;
+    color: #656358;
     font-family: 'Playfair Display', serif;
     font-size: 96px;
     letter-spacing: 1px;
@@ -68,6 +68,7 @@
 i{
     font-size: 10px;
     vertical-align: center;
+    color: #3d3b33;
 
 }
 

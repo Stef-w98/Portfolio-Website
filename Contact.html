@@ -20,49 +20,56 @@
             <li><a href="Projects.html">Projects</a></li>
             <li><a class="active" href="Contact.html">Contact</a></li>
         </ul>
-        <h1 class="myName">Stef Wouters</h1>
     </nav>
-    <div class="formcontainer">
-        <form method="post" class="contactform">
-            <div class="inputcontainer">
-                <div class="namecontainer">
-                    <div class="fname">
-                        <label for="fname">First Name</label>
-                        <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+    <div class="maincontainer">
+        <div class="contactinfo">
+            <h4>Contact</h4>
+            <p>3560 Lummen</p>
+            <p>Belgium</p>
+            <p>E-mail: Stef.wouters22@gmail.com</p>
+
+        </div>
+        <div class="formcontainer">
+            <form method="post" class="contactform">
+                <div class="inputcontainer">
+                    <div class="namecontainer">
+                        <div class="fname">
+                            <label for="fname">First Name</label>
+                            <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+                        </div>
+                        <div class="lname">
+                            <label for="lname">Last Name</label>
+                            <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+                        </div>
                     </div>
-                    <div class="lname">
-                        <label for="lname">Last Name</label>
-                        <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+                    <div class="mailcontainer">
+                        <div class="mail">
+                            <label for="iemail">E-mail</label>
+                            <input type="email" id="iemail" name="e-mail" placeholder="Your e-mail.."
+                                   pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                                   title="Please enter a correct email address" required>
+                        </div>
+                        <div class="phone">
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Your phone number.."
+                                   pattern="[0-9]{10}"
+                                   required>
+
+
+                        </div>
                     </div>
                 </div>
-                <div class="mailcontainer">
-                    <div class="mail">
-                        <label for="iemail">E-mail</label>
-                        <input type="email" id="iemail" name="e-mail" placeholder="Your e-mail.."
-                               pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
-                               title="Please enter a correct email address" required>
-
-                    </div>
-                    <div class="phone">
-                        <label for="phone">Phone</label>
-                        <input type="tel" id="phone" name="phone" placeholder="Your phone number.." pattern="[0-9]{10}"
-                               required>
-
-
-                    </div>
+                <div class="subjectbox">
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
                 </div>
-            </div>
-            <div class="subjectbox">
-                <label for="subject">Subject</label>
-                <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
-            </div>
 
-            <input class="sendbtn" type="submit" value="Submit">
+                <input class="sendbtn" type="submit" value="Submit">
 
 
-        </form>
+            </form>
+        </div>
     </div>
-
 
 </div>
 <script src="Javascript/General.js"></script>
