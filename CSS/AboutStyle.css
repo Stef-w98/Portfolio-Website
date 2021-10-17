@@ -1,3 +1,4 @@
+/* My name in xxl size */
 .swname{
     color: #3d3b33;
     font-family: 'Playfair Display', serif;
@@ -8,6 +9,7 @@
     margin: 0;
 }
 
+/* whole box with al the content */
 .biobox{
     display: flex;
     flex-direction: column;
@@ -16,6 +18,7 @@
     padding: 5%;
 }
 
+/* Box contains title and info */
 .box{
     display: flex;
     flex-direction: row;
@@ -24,6 +27,7 @@
     margin: 2rem 0;
 }
 
+/* Title of each category */
 .title{
     color: white;
     font-family: 'Playfair Display', serif;
@@ -37,6 +41,7 @@
     width: 25%;
 }
 
+/* Info of each category */
 .info{
     font-family: 'Playfair Display', serif;
     color: white;

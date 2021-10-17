@@ -5,12 +5,33 @@ body{
 
 }
 
+/* Scrollbar */
+::-webkit-scrollbar{
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #212121;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #3d3b33;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #2b2a26;
+}
+
+/*---------------------------------*/
+
+/* Navigation */
 .navbar{
     background-color: #212121;
-    position: sticky;
+    /*position: sticky;*/
     display: flex;
     justify-content: center;
-    top: 0;
+    /*top: 0;*/
     width: 100%;
 }
 
@@ -36,10 +57,9 @@ body{
     color: #c4a11d;
 }
 
-.a:active{
-    color: darkred;
-}
+/*---------------------------------*/
 
+/* Submit Button */
 .sendbtn{
     color: blue;
     background-color: gray;
