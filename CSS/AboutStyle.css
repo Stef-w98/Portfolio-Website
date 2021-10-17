@@ -60,10 +60,16 @@
 
 .list{
     list-style-type: none;
+    display: flex;
     flex-direction: column;
+
 }
+
 i{
     font-size: 10px;
+    vertical-align: center;
+
 }
+
 
 
