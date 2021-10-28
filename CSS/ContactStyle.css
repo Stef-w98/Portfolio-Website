@@ -14,8 +14,8 @@
     float: left;
     border-right: 2px solid #3d3b33;
     margin-bottom: 8%;
-
 }
+
 .contactinfo p{
     font-family: 'Playfair Display', serif;
     color: white;
@@ -54,6 +54,8 @@
     align-items: center;
     flex-wrap: wrap;
     float: right;
+
+
 }
 
 .formcontainer {
