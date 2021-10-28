@@ -1,16 +1,19 @@
-.mailcontainer{
+.maincontainer{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    align-content: center;
 }
+
 .contactinfo{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    padding-right: 5rem;
-    margin-left: 10rem;
+    padding-right: 4rem;
     margin-top: 10rem;
     float: left;
     border-right: 2px solid #3d3b33;
+    margin-bottom: 8%;
 
 }
 .contactinfo p{
@@ -44,19 +47,20 @@
     max-height: 50em;
     margin-top: 5rem;
     color: white;
-    padding-left: 5rem;
+    padding-left: 4rem;
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-right: 18rem;
+    float: right;
 }
 
 .formcontainer {
     display: flex;
     flex-direction: row;
-    justify-content: right;
+    justify-content: space-between;
+
 }
 
 .fname {
@@ -122,7 +126,7 @@
     align-content: center;
     display: flex;
     width: auto;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .mail {

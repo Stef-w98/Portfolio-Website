@@ -29,9 +29,9 @@ body{
 .navbar{
     background-color: #212121;
     /*position: sticky;*/
+    /*top: 0;*/
     display: flex;
     justify-content: center;
-    /*top: 0;*/
     width: 100%;
 }
 
