@@ -31,8 +31,13 @@ body{
     /*position: sticky;*/
     /*top: 0;*/
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     width: 100%;
+}
+.navtop{
+    display: flex;
+    padding: 0;
+    position: relative;
 }
 
 .navbar a{
@@ -43,7 +48,6 @@ body{
     text-align: center;
     text-decoration: none;
 }
-
 
 .navbar li{
     display: inline-flex;
@@ -56,6 +60,20 @@ body{
     color: #656358;
 
 }
+
+.flg{
+    height: 15px;
+    width: 21px;
+    padding: 3px;
+}
+
+.lang{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 20px;
+}
+
 
 /*---------------------------------*/
 

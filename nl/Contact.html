@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/General.css">
+    <link rel="stylesheet" href="../CSS/ContactStyle.css">
+    <title>Contact</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+    </style>
+</head>
+<body>
+<div id="container">
+    <nav class="navbar">
+        <ul class="navtop">
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="About.html">Over mij</a></li>
+            <li><a href="Projects.html">Projecten</a></li>
+            <li><a class="active" href="Contact.html">Contact</a></li>
+        </ul>
+        <div class="lang">
+            <img class="flg" src="../Images/NL.png" alt="Nl"/>
+            <a href="../en/Contact.html">
+                <img class="flg" src="../Images/GB.png" alt="Eng"/>
+            </a>
+        </div>
+    </nav>
+    <div class="maincontainer">
+        <div class="contactinfo">
+            <h4>Contact</h4>
+            <p>3560 Lummen</p>
+            <p>België</p>
+            <p>E-mail: Stef.wouters22@gmail.com</p>
+
+        </div>
+        <div class="formcontainer">
+            <form method="post" class="contactform">
+                <div class="inputcontainer">
+                    <div class="namecontainer">
+                        <div class="fname">
+                            <label for="fname">Voornaam</label>
+                            <input type="text" id="fname" name="firstname" placeholder="Je voornaam.." required>
+                        </div>
+                        <div class="lname">
+                            <label for="lname">Achternaam</label>
+                            <input type="text" id="lname" name="lastname" placeholder="Je achternaam.." required>
+                        </div>
+                    </div>
+                    <div class="mailcontainer">
+                        <div class="mail">
+                            <label for="iemail">E-mail</label>
+                            <input type="email" id="iemail" name="e-mail" placeholder="Je e-mail.."
+                                   pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                                   title="Enter een correct email adres aub." required>
+                        </div>
+                        <div class="phone">
+                            <label for="phone">Gsm</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Je gsm nummer.."
+                                   pattern="[0-9]{10}"
+                                   required>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="subjectbox">
+                    <label for="subject">Onderwerp</label>
+                    <textarea id="subject" name="subject" placeholder="Typ hier je bericht.."></textarea>
+                </div>
+
+                <input class="sendbtn" type="submit" value="Verstuur">
+
+
+            </form>
+        </div>
+    </div>
+
+</div>
+<script src="../Javascript/General.js"></script>
+</body>
+</html>
