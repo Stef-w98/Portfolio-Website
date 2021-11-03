@@ -40,6 +40,14 @@ body{
     position: relative;
 }
 
+.logoicon{
+    height: 80px;
+    width: 80px;
+    display: flex;
+    position: absolute;
+    left: 0;
+}
+
 .navbar a{
     color: white;
     padding: 14px 16px;
@@ -75,13 +83,51 @@ body{
 }
 
 
-/*---------------------------------*/
+/*-------------Footer--------------------*/
+footer{
+    background-color: #212121;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    width: 100%;
 
-/* Submit Button */
-.sendbtn{
-    color: blue;
-    background-color: gray;
+}
 
+.logoiconbfoot{
+    height: 140px;
+    width: 140px;
+    display: flex;
+    position: absolute;
+    left: 0;
+}
+
+.footerinfo{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    line-height: 2.2rem;
+    position: relative;
+    left: 150px;
+    border-left: 3px solid #3d3b33;
+    padding-left: 1.5rem;
+
+}
+
+.socials{
+    display: flex;
+    position: relative;
+    bottom: 10%;
+    filter: invert(37%) sepia(8%) saturate(595%) hue-rotate(13deg) brightness(96%) contrast(81%);
+
+}
+
+.socials img{
+    margin-right: 30px;
+    width: 30px;
+    height: 30px;
 }
 
 
