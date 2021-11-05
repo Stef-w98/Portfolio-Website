@@ -1,12 +1,114 @@
-.myname1{
-    color: white;
-    opacity: 80%;
-    font-family: 'Italianno', sans-serif;
-    font-size: 180px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 15%;
+body{
+    margin: 0;
+}
 
+#wrapper {
+    display: flex;
+    height: 100vh;
+    background-image: url("../Images/Background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#glass {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    /*background-color: gray;*/
+    background: linear-gradient(135deg,  rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(2px);
+    /*opacity: 0.5;*/
+    pointer-events: none;
+}
+
+#vl {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #4a473c;
+}
+
+#btn1:hover ~ #glass {
+    animation-name: rightToLeft;
+    animation-duration: 1s;  
+    animation-fill-mode: both;
+}
+
+#glass {
+    animation-name: leftToRight;
+    animation-duration: 1s;  
+    animation-fill-mode: both;
+}
+
+.btnContainer {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*z-index: 10;*/
+}
+
+@keyframes leftToRight {
+    from {left: 50%}
+    to {left: 0}
+}
+
+@keyframes rightToLeft {
+    from {left: 0}
+    to {left: 50%}
+}
+
+.btnlanguage{
+    color: #4a473c;
+    font-family: 'Italianno', sans-serif;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+.lngicon{
+    height: 30px;
+    width: 42px;
+    padding-right: 10px;
+}
+
+#dutch::after{
+    content: "Dutch";
+    animation-name: nederlandsToDutch;
+    animation-duration: 0s;
+    animation-fill-mode: both;
+}
+
+#english::after{
+    content: "English";
+    animation-name: engelstoenglish;
+    animation-duration: 0s;
+    animation-fill-mode: both;
+}
+#btn1:hover > #dutch::after {
+    animation-name: dutchtonederlands;
+    animation-duration: 0s;
+    animation-fill-mode: both;
+}
+#btn1:hover ~ #btn2 > #english::after {
+    animation-name: englishtoengels;
+    animation-duration: 0s;
+    animation-fill-mode: both;
+}
+
+@keyframes dutchtonederlands {
+    from{content: "Dutch"}
+    to{content: "Nederlands"}
+}
+@keyframes nederlandstodutch {
+    from{content: "Nederlands"}
+    to{content: "Dutch"}
+}
+@keyframes englishtoengels {
+    from{content: "English"}
+    to{content: "Engels"}
+}
+@keyframes engelstoenglish {
+    from{content: "Engels"}
+    to{content: "English"}
 }
