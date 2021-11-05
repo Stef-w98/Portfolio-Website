@@ -31,13 +31,13 @@ body{
 
 #btn1:hover ~ #glass {
     animation-name: rightToLeft;
-    animation-duration: 1s;  
+    animation-duration: 0.8s;
     animation-fill-mode: both;
 }
 
 #glass {
     animation-name: leftToRight;
-    animation-duration: 1s;  
+    animation-duration: 0.8s;
     animation-fill-mode: both;
 }
 
