@@ -99,12 +99,21 @@ body{
     display: flex;
     flex-direction: column;
     float: right;
-    padding-right: 120px;
-    padding-bottom: 40px;
-    width: 60px;
-    height: 60px;
+    margin-right: 120px;
+    margin-bottom: 40px;
     filter: invert(37%) sepia(8%) saturate(595%) hue-rotate(13deg) brightness(96%) contrast(81%);
     align-self: flex-end;
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    transition: transform 350ms ease-in-out;
+
+}
+
+.totop:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 1rem hsl(0 0% 100% / 0.8);
+    border: none;
 }
 
 
