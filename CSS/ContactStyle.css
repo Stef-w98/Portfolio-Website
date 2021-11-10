@@ -180,3 +180,30 @@
     box-shadow: inset 300px 0 0 0 #656358;
     cursor: pointer;
 }
+
+/*
+#status{
+    font-size: 40px;
+    color: white;
+}
+
+#status.succes{
+    color: green;
+    animation: status 4s ease forwards;
+}
+
+@keyframes status {
+    0%{
+        opacity: 1;
+        pointer-events: all;
+    }
+    90%{
+        opacity: 1;
+        pointer-events: all;
+    }
+    100%{
+        opacity: 0;
+        pointer-events: none;
+    }
+
+}*/

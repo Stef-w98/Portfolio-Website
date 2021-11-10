@@ -12,6 +12,7 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
     </style>
+
 </head>
 <body>
 <div id="container">
@@ -41,7 +42,7 @@
 
         </div>
         <div class="formcontainer">
-            <form method="post" class="contactform" netlify>
+            <form data-netlify="true" method="post" id="idform" class="contactform" action="/Succes.html">
                 <div class="inputcontainer">
                     <div class="namecontainer">
                         <div class="fname">
@@ -65,8 +66,6 @@
                             <input type="tel" id="phone" name="phone" placeholder="Your phone number.."
                                    pattern="[0-9]{10}"
                                    required>
-
-
                         </div>
                     </div>
                 </div>
@@ -80,6 +79,7 @@
 
             </form>
         </div>
+
     </div>
     <footer>
         <div class="logoiconbfoot">
@@ -106,6 +106,6 @@
         </div>
     </footer>
 </div>
-<script src="../Javascript/General.js"></script>
+
 </body>
 </html>
