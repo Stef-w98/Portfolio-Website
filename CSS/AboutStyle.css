@@ -65,12 +65,36 @@
 
 }
 
-i{
-    font-size: 10px;
-    vertical-align: center;
-    color: #3d3b33;
-
+li{
+    min-height: 10px;
+    max-height: 50px;
 }
 
 
+i{
+    display: flex;
+    font-size: 14px;
+    vertical-align: center;
+    color: #3d3b33;
+    padding-right: 0.3rem;
+    float: left;
+}
 
+.points{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: center;
+    float: right;
+    margin-right: 70%;
+    margin-top: 13px;
+
+}
+
+.infoIndent{
+    margin-left: 2rem;
+}
+
+.subtitle{
+    margin-bottom: 1rem;
+}

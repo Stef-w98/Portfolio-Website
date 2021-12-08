@@ -93,6 +93,15 @@ body{
     right: 20px;
 }
 
+@media screen and (max-width: 500px ) {
+    .navtop{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        position: relative;
+    }
+}
+
 /*-----------To-Top-Button----------------*/
 
 .totop{

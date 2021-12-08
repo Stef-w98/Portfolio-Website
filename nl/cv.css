@@ -1,0 +1,41 @@
+.tbstudies{
+    background-color: #656358;
+
+    font-size: 16px;
+    max-width: fit-content;
+}
+
+.tbstages{
+    background-color: #656358;
+    font-size: 16px;
+    max-width: 36rem;
+}
+
+
+
+table, th, td {
+    border:1px solid black;
+    text-align: center;
+    color: white;
+}
+
+tr:nth-child(even){
+    background: #656358;
+    color: white;
+}
+th{
+    background: #3d3b33;
+    color: white;
+}
+
+button{
+    height: 2rem;
+    width: 4rem;
+}
+
+.btnchangecss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

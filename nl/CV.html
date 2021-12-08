@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Curriculum vitae</title>
+
+    <link rel="stylesheet" href="cv.css">
+    <link rel="stylesheet" href="../CSS/General.css">
+</head>
+<body>
+<table class="tbstudies" id="result">
+  <tr>
+    <th colspan="4">Studies</th>
+  </tr>
+    <tr>
+        <th></th>
+        <th>Restaurant/Keuken</th>
+        <th>HBO5 Verpleegkunde</th>
+        <th>Graduaat Programmeren</th>
+    </tr>
+  <tr>
+    <th>Plaats</th>
+    <td>Herk-de-Stad</td>
+    <td colspan="2">Hasselt</td>
+
+  </tr>
+  <tr>
+    <th>Jaar</th>
+    <td>2013 - 2017</td>
+    <td>2017 - 2020</td>
+    <td>2021 - 2032</td>
+  </tr>
+</table>
+
+<table class="tbstages">
+    <tr>
+        <th colspan="2">Stages</th>
+    </tr>
+    <tr>
+        <th colspan="2">Restaurant/Keuken</th>
+    </tr>
+    <tr>
+        <th>Plaats</th>
+        <th>Jaar</th>
+    </tr>
+    <tr>
+        <td>Hof Te Rhode in schaffen</td>
+        <td>2015</td>
+    </tr>
+    <tr>
+        <td>Innesto in Houthalen-Helchteren</td>
+        <td>2016</td>
+    </tr>
+    <tr>
+        <td>Sel Gris in Knokke-Heist</td>
+        <td>2017</td>
+    </tr>
+    <tr>
+        <th colspan="2">Verpleegkunde</th>
+    </tr>
+    <tr>
+        <th>Plaats</th>
+        <th>Jaar</th>
+    </tr>
+    <tr>
+        <td>WZC Ocura in Beringen</td>
+        <td>2017</td>
+    </tr>
+    <tr>
+        <td>SFZ Heusden - Geriatrie</td>
+        <td>2017/2018</td>
+    </tr>
+    <tr>
+        <td>Jessa Ziekenhuis St.-Ursula - Revalidatie</td>
+        <td>2018</td>
+    </tr>
+    <tr>
+        <td>SFZ Heusden - Inwendige 2 (Hart/Long)</td>
+        <td>2019</td>
+    </tr>
+    <tr>
+        <td>Jessa Ziekenhuis Salvator - Gerontopsychiatrie</td>
+        <td>2019</td>
+    </tr>
+    <tr>
+        <td>WZC Ocura - Herk-De-Stad</td>
+        <td>2020</td>
+    </tr>
+
+
+</table>
+
+<div><h2> Javascript Example On click Change Css style</h2></div>
+<button onclick="change_css();">Check</button><br />
+
+<script>
+    function change_css(){
+        document.getElementById('result').style.cssText = 'padding:20px; background-color:#b2b2ff; color:#0c0800; border:1px solid #0c0800; font-size:22px;';
+        document.getElementById('result').innerHTML = '<div><h2> Javascript Example On click Change Css style</h2></div>'
+    }
+</script>
+</body>
+</html>
