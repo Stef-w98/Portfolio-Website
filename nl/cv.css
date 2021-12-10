@@ -11,8 +11,6 @@
     max-width: 36rem;
 }
 
-
-
 table, th, td {
     border:1px solid black;
     text-align: center;
@@ -20,7 +18,7 @@ table, th, td {
 }
 
 tr:nth-child(even){
-    background: #656358;
+    background: #898579;
     color: white;
 }
 th{
