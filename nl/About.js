@@ -1,5 +1,7 @@
+
+
 function change_css(){
-    stage_tabel();
+
     document.getElementById('studies').innerHTML = '<table class="tbstudies">\n' +
         '  <tr>\n' +
         '    <th colspan="4">Studies</th>\n' +
@@ -23,7 +25,7 @@ function change_css(){
         '    <td>2021 - 2032</td>\n' +
         '  </tr>\n' +
         '</table></div>';
-    document.getElementById('studies').classList.add('tbstudies','table', 'th, td', 'tr:nth-child(even)',)
+    //document.getElementById('studies').classList.add('tbstudies','table', 'th, td', 'tr:nth-child(even)');
 
 
 }
@@ -85,7 +87,61 @@ function stage_tabel(){
         '    </tr>\n' +
         '\n' +
         '\n' +
-        '</table>'
+        '</table>';
 
-    document.getElementById('stages').classList.add('tbstages','table', 'th, td', 'tr:nth-child(even)',)
+    //document.getElementById('stages').classList.add('tbstages','table', 'th, td', 'tr:nth-child(even)');
+}
+
+function werk_tabel(){
+    document.getElementById('werk').innerHTML = '<table class="tbstages">\n' +
+        '    <tr>\n' +
+        '        <th colspan="2">Werk Ervaringen</th>\n' +
+        '    </tr>\n' +
+        '    <tr>\n' +
+        '        <th colspan="2">Studenten Jobs</th>\n' +
+        '    </tr>\n' +
+        '    <tr>\n' +
+        '        <th>Plaats</th>\n' +
+        '        <th>Jaar</th>\n' +
+        '    </tr>\n' +
+        '    <tr>\n' +
+        '        <td>Hof Te Rhode in schaffen</td>\n' +
+        '        <td>2015 tot 2016</td>\n' +
+        '    </tr>\n' +
+        '    <tr>\n' +
+        '        <td>Kaasbrik in Halen</td>\n' +
+        '        <td>2017</td>\n' +
+        '    </tr>\n' +
+        '    <tr>\n' +
+        '        <td>Rust-Oleum Mathys in Zelem</td>\n' +
+        '        <td>2018</td>\n' +
+        '    </tr>\n' +
+        '    <tr>\n' +
+        '        <td>Scheuten Glas in Diest</td>\n' +
+        '        <td>2019</td>\n' +
+        '    </tr>\n' +
+        '    <tr>\n' +
+        '        <th colspan="2">Vaste Jobs</th>\n' +
+        '    </tr>\n' +
+        '    <tr>\n' +
+        '        <th>Plaats</th>\n' +
+        '        <th>Jaar</th>\n' +
+        '    </tr>\n' +
+        '\n' +
+        '    <tr>\n' +
+        '        <td>WZC Ocura - Herk-De-Stad</td>\n' +
+        '        <td>Juli 2020 tot Augustus 2021</td>\n' +
+        '    </tr>\n' +
+        '\n' +
+        '</table>';
+
+    //document.getElementById('werk').classList.add('tbstages','table', 'th, td', 'tr:nth-child(even)');
+}
+
+function test(){
+    werk_tabel();
+    change_css();
+    stage_tabel();
+
+
 }

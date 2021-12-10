@@ -108,8 +108,7 @@ body{
     display: flex;
     flex-direction: column;
     float: right;
-    margin-right: 120px;
-    margin-bottom: 40px;
+    margin-right: 5rem;
     filter: invert(37%) sepia(8%) saturate(595%) hue-rotate(13deg) brightness(96%) contrast(81%);
     align-self: flex-end;
     height: 80px;

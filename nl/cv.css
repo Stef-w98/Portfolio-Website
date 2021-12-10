@@ -33,9 +33,38 @@ button{
     width: 4rem;
 }
 
+.prefoorter{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5rem;
+
+}
+
+.buttonpositie{
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    margin-left: 5rem;
+}
+
 .btnchangecss{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 5rem;
+    height: 3rem;
+    border-radius: 10px;
+    background-color: #4a473c;
+    color: white;
+    transition: transform 350ms ease-in-out;
 
+}
+
+.btnchangecss:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 0 0 0.8rem hsl(0 0% 100% / 0.6);
+    border: none;
 }
