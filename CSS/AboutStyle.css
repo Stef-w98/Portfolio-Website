@@ -1,5 +1,5 @@
 /* My name in xxl size */
-.swname{
+.swname {
     color: #656358;
     font-family: 'Playfair Display', serif;
     font-size: 96px;
@@ -10,7 +10,7 @@
 }
 
 /* whole box with al the content */
-.biobox{
+.biobox {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -19,7 +19,7 @@
 }
 
 /* Box contains title and info */
-.box{
+.box {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -28,7 +28,7 @@
 }
 
 /* Title of each category */
-.title{
+.title {
     color: white;
     font-family: 'Playfair Display', serif;
     font-size: 36px;
@@ -42,7 +42,7 @@
 }
 
 /* Info of each category */
-.info{
+.info {
     font-family: 'Playfair Display', serif;
     color: white;
     letter-spacing: 2px;
@@ -58,20 +58,20 @@
     width: 65%;
 }
 
-.list{
+.list {
     list-style-type: none;
     display: flex;
     flex-direction: column;
 
 }
 
-li{
+li {
     min-height: 10px;
     max-height: 50px;
 }
 
 
-i{
+i {
     display: flex;
     font-size: 14px;
     vertical-align: center;
@@ -80,7 +80,7 @@ i{
     float: left;
 }
 
-.points{
+.points {
     display: flex;
     flex-wrap: wrap;
     justify-content: right;
@@ -91,10 +91,83 @@ i{
 
 }
 
-.infoIndent{
+.infoIndent {
     margin-left: 2rem;
 }
 
-.subtitle{
+.subtitle {
     margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 480px) {
+
+    .swname {
+        margin-left: 4rem;
+    }
+
+    .points {
+        display: flex;
+        justify-content: center;
+        margin-right: 0;
+        width: 100%;
+        margin-top: 0;
+        margin-left: 50%;
+        font-size: 20px;
+    }
+
+    li{
+        font-size: 24px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 2rem;
+
+    }
+
+    .biobox {
+
+        width: 150vw;
+        padding: 0;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+    .box {
+        align-items: center;
+        justify-content: center;
+        width: 150vw;
+        margin: 0;
+        margin-right: 3rem;
+
+    }
+
+    .title {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .info {
+        text-align: center;
+        justify-content: center;
+        border-left: none;
+        border-top: 3px solid #3d3b33;
+
+    }
+
+    .infoIndent {
+        margin-left: 0;
+        margin-bottom: 1rem;
+        font-size: 16px;
+        letter-spacing: 2px;
+        word-spacing: 6px;
+        line-height: 2.4rem;
+    }
+
+    .subtitle {
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
 }
