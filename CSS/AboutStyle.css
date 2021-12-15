@@ -102,7 +102,8 @@ i {
 @media screen and (max-width: 480px) {
 
     .swname {
-        margin-left: 4rem;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .points {
@@ -121,12 +122,10 @@ i {
         align-items: center;
         text-align: center;
         margin-bottom: 2rem;
-
     }
 
     .biobox {
-
-        width: 150vw;
+        width: 100vw;
         padding: 0;
         margin: 0;
         justify-content: center;
@@ -137,10 +136,8 @@ i {
     .box {
         align-items: center;
         justify-content: center;
-        width: 150vw;
+        width: 100vw;
         margin: 0;
-        margin-right: 3rem;
-
     }
 
     .title {
@@ -154,6 +151,7 @@ i {
         justify-content: center;
         border-left: none;
         border-top: 3px solid #3d3b33;
+        width: 100%;
 
     }
 
@@ -169,5 +167,22 @@ i {
     .subtitle {
         margin-top: 2rem;
         margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 370px){
+    .swname {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 60px;
+    }
+
+    li{
+
+        font-size: 20px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 2rem;
     }
 }
