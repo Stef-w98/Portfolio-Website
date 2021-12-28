@@ -2,50 +2,57 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>About</title>
+    <title>About me</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="This is the portfolio website of Stef Wouters. This is my about page.">
+    <meta name="description" content="This is the portfolio website from Stef Wouters. This is my about page.">
     <link rel="icon" type="png" href="../Images/IMG_logo_Black.png">
     <link rel="stylesheet" href="../CSS/General.css">
     <link rel="stylesheet" href="../CSS/AboutStyle.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
     </style>
+    <link rel="stylesheet" href="../CSS/cv.css">
 </head>
 <body>
 <div id="container">
-    <nav class="navbar">
+    <nav class="navbar" id="menu">
         <div class="logoicon">
-            <img src="../Images/IMG_logo.png" alt="logo"/>
+            <img class="logoimg" src="../Images/IMG_logo.png" alt="logo"/>
+            <a class="hamburger" onclick="hamburgerNav()"><img class="hamburgerimg" src="../Images/menu.png" alt="hamburgerlogo"/></a>
         </div>
         <ul class="navtop">
 
-            <li><a class="active" href="About.html">About</a></li>
+            <li><a class="active" href="About.html">About me</a></li>
             <li><a href="Projects.html">Projects</a></li>
             <li><a href="Contact.html">Contact</a></li>
         </ul>
         <div class="lang">
             <a href="../nl/About.html">
-                <img class="flg" src="../Images/NL.png" alt="Nl"/>
+                <img src="../Images/NL.png" alt="Nl"/>
             </a>
-            <img class="flg" src="../Images/GB.png" alt="Eng"/>
+            <img src="../Images/GB.png" alt="Eng"/>
         </div>
     </nav>
-
-    <p class="swname">Stef Wouters</p>
+    <div class="nameProfile">
+        <div class="link">
+            <a class="imgLink" href="https://www.linkedin.com/in/stef-wouters98" target="_blank"><img class="profileImg" src="../Images/stefprofile.png" alt="profilePicture"/></a>
+        </div>
+        <div class="name">
+            <p class="swname">Stef Wouters</p>
+        </div>
+    </div>
     <div class="biobox">
         <div class="box">
             <p class="title">Living:</p>
-            <p class="info">Born in Diest, Belgium <br>Living in Lummen, Belgium <br>Studying in Hasselt, Belgium </p>
+            <p class="info">Born in Diest, Belgium <br>Living in Lummen, Belgium <br>Studying in Hasselt,
+                Belgium</p>
         </div>
         <div class="box">
-            <p class="title">About me:</p>
-            <p class="info">I'm a programmer currently studying in PXL Digital. I studied nursing in the past but i
-                wanted a
-                change.
+            <p class="title">About me</p>
+            <p class="info">I'm a programmer currently studying in PXL Digital. I studied nursing in the past but i wanted a change.
                 <br>I've chosen for programming because i'm behind a computer sends 3 years old.
-                <br> I always wanted to create new things and learned myself some basic programming.
-                <br> I started with HTML5, CSS, C# and LUA Script.</p>
+                <br>I always wanted to create new things and learned myself some basic programming.
+                <br>I started with HTML5, CSS, Java Script, C# en LUA Script.</p>
         </div>
         <div class="box">
             <p class="title">Languages:</p>
@@ -82,24 +89,6 @@
         <div class="box">
             <p class="title">Skills:</p>
             <ul class="info list">
-                <li>C#:
-                    <div class="points">
-                        <i class="fas fa-circle"></i>
-                        <i class="far fa-circle"></i>
-                        <i class="far fa-circle"></i>
-                        <i class="far fa-circle"></i>
-                        <i class="far fa-circle"></i>
-                    </div>
-                </li>
-                <li>LUA Script:
-                    <div class="points">
-                        <i class="fas fa-circle"></i>
-                        <i class="far fa-circle"></i>
-                        <i class="far fa-circle"></i>
-                        <i class="far fa-circle"></i>
-                        <i class="far fa-circle"></i>
-                    </div>
-                </li>
                 <li>HTML5:
                     <div class="points">
                         <i class="fas fa-circle"></i>
@@ -118,6 +107,24 @@
                         <i class="far fa-circle"></i>
                     </div>
                 </li>
+                <li>C#:
+                    <div class="points">
+                        <i class="fas fa-circle"></i>
+                        <i class="fas fa-circle"></i>
+                        <i class="far fa-circle"></i>
+                        <i class="far fa-circle"></i>
+                        <i class="far fa-circle"></i>
+                    </div>
+                </li>
+                <li>SQL:
+                    <div class="points">
+                        <i class="fas fa-circle"></i>
+                        <i class="fas fa-circle"></i>
+                        <i class="far fa-circle"></i>
+                        <i class="far fa-circle"></i>
+                        <i class="far fa-circle"></i>
+                    </div>
+                </li>
                 <li>Javascript:
                     <div class="points">
                         <i class="fas fa-circle"></i>
@@ -127,7 +134,7 @@
                         <i class="far fa-circle"></i>
                     </div>
                 </li>
-                <li>SQL:
+                <li>LUA Script:
                     <div class="points">
                         <i class="fas fa-circle"></i>
                         <i class="far fa-circle"></i>
@@ -136,39 +143,53 @@
                         <i class="far fa-circle"></i>
                     </div>
                 </li>
+
             </ul>
         </div>
         <div class="box">
             <p class="title">Education:</p>
-            <ul class="info list">
-                <li>Associate degree programming</li>
-                <li>HBO5 nursing education</li>
-                <li>hotel and catering school</li>
+            <ul class="info list" id="studies">
+                <li>Associate degree programming - 2021/2023</li>
+                <li>HBO5 nursing education - 2017/2020</li>
+                <li>Hotel and catering school - 2013/2017</li>
             </ul>
         </div>
         <div class="box">
             <p class="title">Work experience:</p>
-            <ul class="info list">
-                <li>WZC Ocura - Herk-De-Stad</li>
-                <li>Student job:</li>
-                <li>Scheuten Glas - Diest</li>
-                <li>Rust-Oleum Mathys - Zelem</li>
-                <li>Kaasbrik - Halen</li>
-                <li>Hof Te Rhode - schaffen</li>
+            <ul class="info list" id="werk">
+                <li class="subtitle"><h3>Fulltime jobs:</h3></li>
+                <li class="infoIndent">Nurse in WZC Ocura - Herk-De-Stad - 2020/2021</li>
+                <li class="subtitle"><h3>Student jobs:</h3></li>
+                <li class="infoIndent">Scheuten Glas - Diest - 2019</li>
+                <li class="infoIndent">Rust-Oleum Mathys - Zelem - 2018</li>
+                <li class="infoIndent">Kaasbrik - Halen - 2017</li>
+                <li class="infoIndent">Waiter in Hof Te Rhode - schaffen - 2015/2016</li>
             </ul>
         </div>
         <div class="box">
             <p class="title">Internships:</p>
-            <ul class="info list">
-                <li>WZC Ocura - Herk-De-Stad</li>
-                <li>Sel gris - Knokke</li>
-                <li>Innesto - Houthalen-Helchteren</li>
-                <li>Hof Te Rhode - schaffen</li>
+            <ul class="info list" id="stages">
+                <li class="subtitle"><h3>HBO5 Nursing:</h3></li>
+                <li class="infoIndent">Retirement home WZC Ocura - Herk-De-Stad - 2020</li>
+                <li class="infoIndent">Jessa Ziekenhuis Campus Salvator - Gerontopsychiatry - 2019</li>
+                <li class="infoIndent">SF Ziekenhuis Heusden - Internal 2 (heart/lung) - 2019</li>
+                <li class="infoIndent">Jessa Ziekenhuis Campus St.-Ursula - Medic rehabilitation - 2018</li>
+                <li class="infoIndent">SF Ziekenhuis Heusden - Geriatrics - 2017/2018</li>
+                <li class="infoIndent">Retirement home WZC Ocura - Beringen - 2017</li>
+                <li class="subtitle"><h3>High school:</h3></li>
+                <li class="infoIndent">Sel gris - Knokke - 2017</li>
+                <li class="infoIndent">Innesto - Houthalen-Helchteren - 2016</li>
+                <li class="infoIndent">Hof Te Rhode - schaffen - 2015</li>
             </ul>
         </div>
     </div>
-    <div class="totop">
-        <a href="#"><img src="../Images/chevron-circle-up-solid.svg" alt="Up"/></a>
+    <div class="prefoorter">
+        <div class="totop">
+            <a href="#"><img src="../Images/chevron-circle-up-solid.svg" alt="Up"/></a>
+        </div>
+        <div class="buttonpositie">
+            <button class="btnchangecss" onclick="test1();">Table</button>
+        </div>
     </div>
     <footer>
         <div class="logoiconbfoot">
@@ -191,13 +212,13 @@
                 <a href="mailto: stef.wouters22@gmail.com"><img src="../Images/google-plus-g-brands.svg"
                                                                 alt="googleplus"></a>
             </div>
-
         </div>
 
-
     </footer>
-
 </div>
 </body>
-<script src="https://kit.fontawesome.com/75761d6f0a.js" crossorigin="anonymous"></script>
+<script
+        src="https://kit.fontawesome.com/75761d6f0a.js" crossorigin="anonymous">
+</script>
+<script src="../Javascript/AboutEng.js"></script>
 </html>
