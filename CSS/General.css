@@ -61,6 +61,10 @@ body {
     left: 0;
 }
 
+.hamburgerimg{
+    display: none;
+}
+
 .navbar a {
     color: white;
     padding: 14px 16px;
@@ -127,7 +131,6 @@ footer {
     display: flex;
     width: 100%;
     justify-content: space-around;
-
 
 }
 
@@ -203,22 +206,31 @@ footer {
         padding: 0;
     }
 
-    .navbar {
-        background-color: #212121;
-        display: flex;
-        justify-content: space-evenly;
-        width: 100vw;
+    .logoicon{
+        display: none;
+    }
+
+    .navbar{
+        height: 90px;
+    }
+
+    .hamburgerimg{
+        display: none;
     }
 
     .navtop {
         display: flex;
-        flex-direction: column;
-        padding: 0;
-        position: relative;
+        margin-top: 40px;
+    }
+
+    li a{
+        font-size: 20px;
     }
 
     .lang {
         display: flex;
+        flex-wrap: wrap;
+        right: 0px;
     }
 
     .totop {

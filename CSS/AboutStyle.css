@@ -1,12 +1,44 @@
 /* My name in xxl size */
+.nameProfile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+}
+
+.imgLink{
+    text-decoration: none;
+}
+
+.profileImg{
+    width:100%;
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+}
+
+.profileImg:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 1rem hsl(0 0% 100% / 0.8);
+    border: none;
+}
+
 .swname {
     color: #656358;
     font-family: 'Playfair Display', serif;
     font-size: 96px;
     letter-spacing: 1px;
-    width: 100%;
     text-align: center;
-    margin: 0;
+    margin-left: 5rem;
+    margin-right: 12rem;
 }
 
 /* whole box with al the content */
@@ -101,9 +133,30 @@ i {
 
 @media screen and (max-width: 480px) {
 
+    .nameProfile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3rem;
+        flex-wrap: wrap;
+    }
+
+    .link{
+        width: 30%;
+    }
+
+    .name{
+        display: flex;
+
+        align-items: center;
+
+    }
+
     .swname {
         display: flex;
         flex-wrap: wrap;
+        margin: 0;
+
     }
 
     .points {
@@ -171,6 +224,7 @@ i {
 }
 
 @media screen and (max-width: 370px){
+
     .swname {
         display: flex;
         flex-wrap: wrap;
@@ -178,7 +232,6 @@ i {
     }
 
     li{
-
         font-size: 20px;
         justify-content: center;
         align-items: center;
