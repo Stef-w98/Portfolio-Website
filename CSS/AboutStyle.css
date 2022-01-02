@@ -40,6 +40,24 @@
     margin-left: 5rem;
     margin-right: 12rem;
 }
+.swname2 {
+    color: #656358;
+    font-family: 'Playfair Display', serif;
+    font-size: 96px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 1rem 12rem 1rem 5rem;
+}
+
+.swnames {
+    color: #656358;
+    font-family: 'Playfair Display', serif;
+    font-size: 56px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
 
 /* whole box with al the content */
 .biobox {
@@ -88,6 +106,25 @@
     float: right;
     border-left: 3px solid #3d3b33;
     width: 65%;
+}
+
+.info2 {
+    font-family: 'Playfair Display', serif;
+    color: white;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    line-height: 2.2rem;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding: 1rem;
+    float: right;
+    border-bottom: 3px solid #3d3b33;
+    margin-left: 25%;
+    width: 50%;
 }
 
 .list {

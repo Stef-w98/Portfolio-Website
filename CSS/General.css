@@ -191,6 +191,12 @@ footer {
     height: 100%;
 }
 
+.logbook{
+    display: flex;
+    justify-content: center;
+    margin: 3rem 0 3rem 0;
+}
+
 @media screen and (max-width: 480px) {
     html {
         width: 100vw;
