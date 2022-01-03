@@ -191,6 +191,10 @@ footer {
     height: 100%;
 }
 
+.prefoorter2{
+    margin-bottom: 1.5rem;
+}
+
 .logbook{
     display: flex;
     justify-content: center;
