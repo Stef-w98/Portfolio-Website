@@ -170,6 +170,7 @@ i {
 
 @media screen and (max-width: 480px) {
 
+
     .nameProfile{
         display: flex;
         justify-content: center;
