@@ -57,7 +57,10 @@ button{
     background-color: #4a473c;
     color: white;
     transition: transform 350ms ease-in-out;
+}
 
+.fix{
+    text-decoration: none;
 }
 
 .btnchangecss:hover{
