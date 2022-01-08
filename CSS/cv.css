@@ -1,3 +1,5 @@
+
+/* Tabel opmaak */
 .tbstudies{
     background-color: #656358;
 
@@ -26,6 +28,7 @@ th{
     color: white;
 }
 
+/* Knop opmaak voor tabel */
 button{
     height: 2rem;
     width: 4rem;
@@ -70,6 +73,7 @@ button{
     border: none;
 }
 
+/* Tebel knop verdwijnt op mobile */
 @media screen and (max-width: 480px){
     button{
         display: none;
