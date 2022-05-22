@@ -18,3 +18,8 @@
     margin: 2rem 5rem 4rem 2rem;
     border: 3px solid #656358;
 }
+
+.nameProfile{
+    display: flex;
+    flex-direction: column;
+}
